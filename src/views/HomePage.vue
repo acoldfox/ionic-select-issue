@@ -14,8 +14,11 @@
       </ion-header>
 
       <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <ion-select interface="popover" placeholder="Select fruit">
+          <ion-select-option value="apples">Apples</ion-select-option>
+          <ion-select-option value="oranges">Oranges</ion-select-option>
+          <ion-select-option value="bananas">Bananas</ion-select-option>
+        </ion-select>
       </div>
     </ion-content>
   </ion-page>
